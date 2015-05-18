@@ -59,14 +59,49 @@ ul li p{
 	color: black;
 }
 
-.base-menu a.pdf-link{
+.base-menu a.pdf-link, a.pdf-link{
 
 	text-decoration: none;
 	font-weight: bold;
 	color:darkblue; 
 }
 
-.base-menu tr td:nth-child(2){
+.base-menu tbody tr td{
 
-	text-align: right;
-};
+	font-weight: bold;
+}
+
+.base-menu thead tr th{
+
+	font-weight: bold;
+	background-color: #333;
+	padding:5px;
+	color: white;
+}
+
+.base-menu tr td{
+
+	padding: 5px;
+}
+
+.base-menu tr:nth-child(odd){
+
+	background-color: #B2B2B2;
+}
+
+.base-menu tr:nth-child(even){
+
+	background-color: #E6E6E6;
+}
+
+.email{
+
+	color:darkred;
+	font-weight: bold;
+}
+
+.twitter{
+
+	color:darkblue;
+	font-weight: bold;
+}
